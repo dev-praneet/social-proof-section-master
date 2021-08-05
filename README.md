@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/geeky-amat/social-proof-section-master)
+- [Live Site URL](https://geeky-amat.github.io/social-proof-section-master/)
 
 ## My process
 
@@ -51,7 +51,7 @@ I can give a dedicatd media query for a tablet size device.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/geeky-amat)
+- Frontend Mentor - [@geeky-amat](https://www.frontendmentor.io/profile/geeky-amat)
 
 
 ## Acknowledgments
