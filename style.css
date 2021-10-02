@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 80%;
+    max-width: min(1400px, 80%);
     margin: 5em auto 2em auto;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .wrapper {
-    max-width: 60%;
+    max-width: 90%;
 }
 
 .focus {
@@ -49,25 +49,29 @@ h1 {
     color: hsl(303, 10%, 53%);
 }
 
-.inline {
-    display: inline;
+.text {
     margin-left: 2em;
-    vertical-align: top;
     font-weight: 500;
     color: hsl(300, 43%, 22%);
 }
 
-.rating {
-    white-space: nowrap;
-    overflow: hidden;
+.rating-wrapper {
     max-width: 80%;
     padding: 0.8em 3em 0.8em 2em;
     background-color: hsl(300, 100%, 90%);
     border-radius: 0.4rem;
 }
 
-.rating + .rating {
+.rating-wrapper + .rating-wrapper {
     margin-top: 1em;
+}
+
+.rating {
+    display: flex;
+    flex-basis: content;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .rating-one {
@@ -83,14 +87,17 @@ h1 {
     margin-left: auto;
 }
 
+.dummy {
+    display: none;
+    height: 0.7em;
+}
+
 .reviews {
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-.review {
 
-}
 
 img {
     max-width: 100%;
@@ -138,10 +145,24 @@ img {
     color: hsl(300, 24%, 96%);
 }
 
-@media (max-width: 600px) {
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 3em 0 0em 0;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1020px) {
     body {
         background: url("./images/bg-pattern-top-mobile.svg") no-repeat left top, url("./images/bg-pattern-bottom-mobile.svg"), no-repeat bottom;    
-    }    
+    }
+    
+    .container {
+        max-width: min(600px, 80%);
+    }
+
     .row {
         flex-direction: column;
     }
@@ -156,20 +177,36 @@ img {
     .ratings {
         text-align: center;
     }
-    .rating {
+    .rating-wrapper {
+        padding: initial;
         max-width: 100%;
+        align-items: space-between;
     }
+
+    .text {
+        margin-left: initial;
+    }
+
     .rating-one{
         margin-left: auto;
     }
     .rating-three{
         margin-right: auto;
     }
-    .inline {
+
+    .dummy {
+        display: block;
+    }
+
+    .text {
         display: block;
         margin: 0.2em auto 0 auto;
     }
     #anne_wallace {
         margin-top: 1em;
+    }
+
+    .attribution {
+        margin: 1.5em 0 0em 0;
     }
 }
