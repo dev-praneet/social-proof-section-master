@@ -10,8 +10,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -25,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot_desktop.png)
 
 
 ### Links
@@ -38,16 +36,8 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 
-### What I learned
-
-- Learnt to use the 'vertical-align' and 'white-space' property in css.
-
-### Continued development
-
-I can give a dedicatd media query for a tablet size device.
 
 ## Author
 
