@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/geeky-amat/social-proof-section-master)
-- [Live Site URL](https://geeky-amat.github.io/social-proof-section-master/)
+- [Solution URL](https://github.com/dev-praneet/social-proof-section-master)
+- [Live Site URL](https://dev-praneet.github.io/social-proof-section-master/)
 
 ## My process
 
@@ -42,6 +42,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@geeky-amat](https://www.frontendmentor.io/profile/geeky-amat)
+- Twitter - [@\_\_dev_praneet\_\_](https://twitter.com/__dev_praneet__)
 
 
 ## Acknowledgments
